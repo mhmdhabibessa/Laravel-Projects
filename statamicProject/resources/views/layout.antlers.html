@@ -8,6 +8,23 @@
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
     </head>
     <body class="bg-gray-100 font-sans leading-normal text-gray-800">
+        
+        <header class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="assets/birwaz.jpg"    class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"/>
+                
+              
+                <span class="ml-3 text-xl">Tailblocks</span>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                {{ nav:collection:pages  include_home="true"}} 
+                <a href="{{url}}" class="mr-5 hover:text-gray-900">{{title}}</a>
+                {{ /nav:collection:pages }}
+              </nav>
+             
+            </div>
+          </header>
 
         <div class="max-w-6xl mx-auto  ">     
             {{ template_content }}
