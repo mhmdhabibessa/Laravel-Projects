@@ -958,9 +958,9 @@ video {
 	background-color: rgba(229, 231, 235, var(--tw-bg-opacity)) !important;
 }
 
-.hover\:text-yellow-500:hover {
+.hover\:text-yellow-100:hover {
 	--tw-text-opacity: 1 !important;
-	color: rgba(245, 158, 11, var(--tw-text-opacity)) !important;
+	color: rgba(254, 243, 199, var(--tw-text-opacity)) !important;
 }
 
 .hover\:underline:hover {
