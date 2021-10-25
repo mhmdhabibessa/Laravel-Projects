@@ -4,7 +4,9 @@ module.exports = {
     content: [
       './resources/**/*.antlers.html',
       './resources/**/*.blade.php',
-      './content/**/*.md'
+      './content/**/*.md',
+      './src/**/*.html',
+     './src/**/*.js'
     ]
   },
   important: true,
