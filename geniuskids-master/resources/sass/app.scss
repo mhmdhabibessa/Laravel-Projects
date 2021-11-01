@@ -1,0 +1,11 @@
+//noinspection ALL
+@tailwind base;
+@import "theme";
+@import "navbar";
+@import "background";
+@import "buttons";
+@import "blockquote";
+//noinspection ALL
+@tailwind components;
+//noinspection ALL
+@tailwind utilities;

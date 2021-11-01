@@ -1,0 +1,72 @@
+blockquote {
+    position: relative;
+    font-family: inherit;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    line-height: 2
+}
+
+blockquote::before {
+    //noinspection all
+    @apply text-primary;
+    position: absolute;
+    content: "‘";
+    font-size: 15em;
+    opacity: 0.2;
+    top: -0.5em;
+    left: -0.05em;
+    right: unset;
+    height: 0;
+}
+
+blockquote::after {
+    position: absolute;
+    content: "‘";
+    //noinspection all
+    @apply text-primary;
+    font-size: 15em;
+    opacity: 0.5;
+    top: -0.5em;
+    left: -0.25em;
+    right: unset;
+    height: 0;
+}
+
+blockquote cite {
+    display: block;
+    //noinspection all
+    @apply text-primary;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 1em
+}
+
+blockquote cite::before {
+    content: "— ";
+    font-style: normal;
+    font-weight: normal;
+    //noinspection all
+    @apply text-secondary text-lg;
+}
+
+blockquote q {
+    quotes: "" "" "" "";
+    display: block;
+    //noinspection all
+    @apply text-secondary text-xl;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+}
+
+blockquote q::before {
+    content: no-open-quote
+}
+
+blockquote q::after{
+    content: no-close-quote
+}

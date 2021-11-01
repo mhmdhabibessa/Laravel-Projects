@@ -1,0 +1,31 @@
+.ar {
+    direction: rtl;
+}
+
+//noinspection all
+@screen md {
+    .ltr {
+        direction: ltr !important;
+    }
+}
+
+ul {
+    //noinspection all
+    @apply list-disc list-outside;
+}
+
+.swiper-container {
+    height: 150px;
+}
+
+@screen sm {
+    .swiper-container {
+        height: 200px;
+    }
+}
+
+@screen md {
+    .swiper-container {
+        height: 400px;
+    }
+}

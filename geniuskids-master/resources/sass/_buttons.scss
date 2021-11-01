@@ -1,0 +1,41 @@
+.btn {
+    //noinspection all
+    @apply px-5 py-2 rounded shadow;
+    transition: 0.3s;
+}
+.btn-primary {
+    //noinspection all
+    @apply bg-primary text-gray-200;
+}
+.btn-primary:hover {
+    //noinspection all
+    @apply bg-blue-600;
+}
+.btn-secondary {
+    //noinspection all
+    @apply bg-secondary text-gray-200;
+}
+.btn-secondary:hover {
+    //noinspection all
+    @apply bg-red-400;
+}
+
+.link-primary {
+    //noinspection all
+    @apply text-primary;
+}
+
+.link-primary:hover {
+    //noinspection all
+    @apply text-blue-600;
+}
+
+.link-secondary {
+    //noinspection all
+    @apply text-secondary;
+}
+
+.link-secondary:hover {
+    //noinspection all
+    @apply text-green-600;
+}

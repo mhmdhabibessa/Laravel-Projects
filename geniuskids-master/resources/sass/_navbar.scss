@@ -1,0 +1,37 @@
+.nav-link {
+    //noinspection ALL
+    @apply px-2 py-1 mt-2 tracking-wide text-lg text-primary;
+}
+.nav-link:hover {
+    //noinspection ALL
+    @apply text-secondary;
+}
+.nav-link:focus {
+    //noinspection ALL
+    @apply text-secondary outline-none shadow-outline;
+}
+.nav-link.active {
+    //noinspection ALL
+    @apply text-secondary;
+}
+.dropdown-link {
+    //noinspection ALL
+    @apply block px-4 py-2 mt-2 text-sm bg-transparent text-primary font-bold;
+}
+.dropdown-link:hover {
+    //noinspection ALL
+    @apply text-secondary;
+}
+.dropdown-link:focus {
+    //noinspection ALL
+    @apply text-secondary outline-none shadow-outline;
+}
+//noinspection ALL
+@screen md {
+    .nav-link {
+        @apply mt-0 ml-4;
+    }
+    .dropdown-link {
+        @apply mt-0;
+    }
+}
