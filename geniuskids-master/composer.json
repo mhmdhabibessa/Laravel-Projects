@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0.11",
+        "php": "^7.3|^8.0",
         "bakerkretzmar/nova-settings-tool": "^1.0",
         "barryvdh/laravel-dompdf": "^0.9.0",
         "benjaminhirsch/nova-slug-field": "^1.2",
@@ -55,7 +55,8 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": [
+            ]
         }
     },
     "autoload": {
