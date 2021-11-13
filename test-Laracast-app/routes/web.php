@@ -14,7 +14,7 @@ use App\Models\Post;
 */
 
 Route::get('/', function () {
-    return view('posts', [
+    return view('welcome', [
         'posts' => Post::all()
     ]);
 });
