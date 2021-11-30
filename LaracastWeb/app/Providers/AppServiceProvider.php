@@ -1,9 +1,12 @@
 <?php
 
 namespace App\Providers;
-
+use Illuminate\Support\Facades\Gate;
+use App\Services\Newsletter;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
-
+use App\Models\User;
+use App\Models;
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -24,5 +27,13 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+
+        Model::unguard();
+         
+        Gate::define('admin',function(User $user) {
+            return $user -> username == 'AbuHabib' ;
+        } );
+
+
     }
 }
