@@ -1,4 +1,5 @@
 <?php
+
 use App\Models\Post;
 use App\Models\Category;
 use App\Models\User;
@@ -23,29 +24,31 @@ use App\Http\Controllers\CategoryController;
 
 
 
-  Route::get('/', [PostController::class,'home']);
-  Route::get('post/{post}', [PostController::class,'post_id']);
+Route::get('/', [PostController::class, 'home']);
+Route::get('post/{post}', [PostController::class, 'post_id']);
 
 //category
-  Route::get('categories/{category:name}',[CategoryController::class, 'Showcategory']);
-  Route::get('authors/{author:username}',[CategoryController::class, 'ShowAuhtor']);
+Route::get('categories/{category:name}', [CategoryController::class, 'Showcategory']);
+Route::get('authors/{author:username}', [CategoryController::class, 'ShowAuhtor']);
 
 //login and register 
-  Route::get('register',[RegisterController::class,'create'])->middleware('guest');
-  Route::post('register',[RegisterController::class,'store'])->middleware('guest');
-  Route::get('login',[SessionController::class,'login'])->middleware('guest');
-  Route::post('logout',[SessionController::class,'destroy'])->middleware('auth');
-  Route::post('login',[SessionController::class,'loginStore'])->middleware('guest');
+Route::get('register', [RegisterController::class, 'create'])->middleware('guest');
+Route::post('register', [RegisterController::class, 'store'])->middleware('guest');
+Route::get('login', [SessionController::class, 'login'])->middleware('guest');
+Route::post('logout', [SessionController::class, 'destroy'])->middleware('auth');
+Route::post('login', [SessionController::class, 'loginStore'])->middleware('guest');
 // write_commnet 
-  Route::post('post/{post}/comments', [CommentController::class,'storeComment']);
+Route::post('post/{post}/comments', [CommentController::class, 'storeComment']);
 
-  //admin 
+//admin 
 
-  Route::get('admin/post/create', [AdminController::class,'create'])->middleware('admin');
-  Route::post('admin/posts', [AdminController::class,'store'])->middleware('admin');
-  Route::get('admin/posts', [AdminController::class,'showAllPost'])->middleware('admin');
-  Route::get('admin/posts/{post}/edit', [AdminController::class,'edit'])->middleware('admin');
-  Route::patch('admin/posts/{post}/edit', [AdminController::class,'update'])->middleware('admin');
-  Route::delete('admin/posts/{post}', [AdminController::class,'destroy'])->middleware('admin');
-  
-  
+Route::get('admin/post/create', [AdminController::class, 'create'])->middleware('admin');
+Route::post('admin/posts', [AdminController::class, 'store'])->middleware('admin');
+Route::get('admin/posts', [AdminController::class, 'showAllPost'])->middleware('admin');
+Route::get('admin/posts/{post}/edit', [AdminController::class, 'edit'])->middleware('admin');
+Route::patch('admin/posts/{post}/edit', [AdminController::class, 'update'])->middleware('admin');
+Route::delete('admin/posts/{post}', [AdminController::class, 'destroy'])->middleware('admin');
+
+Route::get("homeArt",  function () {
+  return view("welcome");
+});
