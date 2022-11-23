@@ -49,20 +49,35 @@
                     </div>
                     <div class="flex justify-center mt-2 md:ml-4 ml-40 space-x-4 text-gray-700">
                         <!-- Instagram -->
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-5 h-5">
-                            <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                            <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-                        </svg>
+
+                        <a href="" class="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 16C13.0609 16 14.0783 15.5786 14.8284 14.8284C15.5786 14.0783 16 13.0609 16 12C16 10.9391 15.5786 9.92172 14.8284 9.17157C14.0783 8.42143 13.0609 8 12 8C10.9391 8 9.92172 8.42143 9.17157 9.17157C8.42143 9.92172 8 10.9391 8 12C8 13.0609 8.42143 14.0783 9.17157 14.8284C9.92172 15.5786 10.9391 16 12 16V16Z" stroke="#3B3D3B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M3 16V8C3 6.67392 3.52678 5.40215 4.46447 4.46447C5.40215 3.52678 6.67392 3 8 3H16C17.3261 3 18.5979 3.52678 19.5355 4.46447C20.4732 5.40215 21 6.67392 21 8V16C21 17.3261 20.4732 18.5979 19.5355 19.5355C18.5979 20.4732 17.3261 21 16 21H8C6.67392 21 5.40215 20.4732 4.46447 19.5355C3.52678 18.5979 3 17.3261 3 16Z" stroke="#3B3D3B" stroke-width="1.5" />
+                                <path d="M17.5 6.51002L17.51 6.49902" stroke="#3B3D3B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <!-- Youtube -->
+                        <a href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 12L10.5 14V10L14 12Z" stroke="#3B3D3B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M2 12.707V11.292C2 8.39702 2 6.94902 2.905 6.01802C3.811 5.08602 5.237 5.04602 8.088 4.96502C9.438 4.92702 10.818 4.90002 12 4.90002C13.181 4.90002 14.561 4.92702 15.912 4.96502C18.763 5.04602 20.189 5.08602 21.094 6.01802C22 6.94902 22 8.39802 22 11.292V12.707C22 15.603 22 17.05 21.095 17.982C20.189 18.913 18.764 18.954 15.912 19.034C14.562 19.073 13.182 19.1 12 19.1C10.819 19.1 9.439 19.073 8.088 19.034C5.237 18.954 3.811 18.914 2.905 17.982C2 17.05 2 15.602 2 12.708V12.707Z" stroke="#3B3D3B" stroke-width="1.5" />
+                            </svg>
+                        </a>
+
                         <!-- Twitter -->
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5">
-                            <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                            <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
-                        </svg>
+                        <a href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23 3.00999C23 3.00999 20.982 4.20199 19.86 4.53999C19.2577 3.84751 18.4573 3.35669 17.567 3.13392C16.6767 2.91116 15.7395 2.96719 14.8821 3.29445C14.0247 3.62171 13.2884 4.2044 12.773 4.96371C12.2575 5.72303 11.9877 6.62233 12 7.53999V8.53999C10.2426 8.58556 8.50127 8.19581 6.93101 7.40544C5.36074 6.61507 4.01032 5.44863 3 4.00999C3 4.00999 -1 13.01 8 17.01C5.94053 18.408 3.48716 19.1089 1 19.01C10 24.01 21 19.01 21 7.50999C21 7.23199 20.972 6.95399 20.92 6.67999C21.94 5.67399 23 3.00999 23 3.00999Z" stroke="#3B3D3B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
                         <!-- Facebook -->
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="w-5 h-5">
-                            <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                            <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
-                        </svg>
+                        <a href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 8V16C21 17.3261 20.4732 18.5979 19.5355 19.5355C18.5979 20.4732 17.3261 21 16 21H8C6.67392 21 5.40215 20.4732 4.46447 19.5355C3.52678 18.5979 3 17.3261 3 16V8C3 6.67392 3.52678 5.40215 4.46447 4.46447C5.40215 3.52678 6.67392 3 8 3H16C17.3261 3 18.5979 3.52678 19.5355 4.46447C20.4732 5.40215 21 6.67392 21 8Z" stroke="#3B3D3B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11 21V12C11 9.812 11.5 8 15 8M9 13H15" stroke="#3B3D3B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -72,7 +87,9 @@
                 <!-- logo -->
                 <nav class="flex justify-between border-solid text-white">
                     <div class="px-5 xl:px-12 py-6 flex w-full items-center">
-                        <img src="/images/Frame.svg" alt="">
+                        <a href="/">
+                            <img src="/images/Frame.svg" alt="">
+                        </a>
                     </div>
                 </nav>
             </section>
@@ -82,49 +99,38 @@
                 <!-- navbar -->
                 <nav class="flex justify-between border-solid text-white">
                     <div class="px-5 xl:px-12 py-6 flex w-full items-center">
-                        <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+                        <ul class="flex space-x-6  md:flex px-4 mx-auto font-semibold font-heading">
                             <li><a class="text-gray-900 hover:text-yellow-500" href="#">Home</a></li>
-                            <li><a class="text-gray-900 hover:text-yellow-500" href="#">Catagory</a></li>
-                            <li><a class="text-gray-900 hover:text-yellow-500" href="#">Collections</a></li>
-                            <li><a class="text-gray-900 hover:text-yellow-500" href="#">Contact Us</a></li>
+                            <li><a class="text-gray-900 hover:text-yellow-500" href="#">Articles</a></li>
+                            <li><a class="text-gray-900 hover:text-yellow-500" href="#">News</a></li>
+                            <li><a class="text-gray-900 hover:text-yellow-500" href="#">Activity</a></li>
+                            <li><a class="text-gray-900 hover:text-yellow-500" href="#">Store</a></li>
+                            <li><a class="text-gray-900 hover:text-yellow-500" href="#">Artists</a></li>
                         </ul>
                     </div>
-                    <a class="navbar-burger self-center ml-64 xl:hidden" href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </a>
                 </nav>
             </section>
         </div>
+        <p class="text-4xl text-center text-yellow-700 md:mt-8 mt-8 pt-10 sm:mt-4">
+            Comming Soon ...
+        </p>
     </div>
 
-
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore unde illo tempore tempora repellat nulla esse optio saepe aut earum soluta ab incidunt eos ratione et commodi beatae, deserunt animi.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatem repellendus vel laborum nobis, excepturi repudiandae ratione in animi aliquid corrupti saepe odio molestiae iste! Quas voluptates tempore expedita aspernatur.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laboriosam beatae dolorem assumenda quo, obcaecati fuga tenetur ex incidunt, id, ut deserunt earum eligendi voluptate? Reiciendis quia libero facere natus.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi accusamus eligendi enim voluptatibus est. Deleniti, cupiditate quos expedita nostrum aliquid quis, incidunt reprehenderit molestiae fugiat enim dignissimos quae aperiam maiores!
-    <p>
-        Lorem ipsum dolor sit
-    </p>
-    </p>
-
     <!-- footer -->
-    <footer class="p-4 bg-gray-900 sm:p-6 dark:bg-gray-900 ">
+    <footer class="p-4 bg-gray-900 sm:p-6 dark:bg-gray-900 mt-24">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0 sm:mr-10">
                 <img src="images/Frame.svg" width="200" height="200" alt="ArtFromPlaestine">
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Website</h2>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Links</h2>
                     <ul class="text-gray-500 dark:text-gray-400">
                         <li class="mb-4">
-                            <a class="hover:text-yellow-500">Flowbite</a>
+                            <a class="hover:text-yellow-500">Artists</a>
                         </li>
                         <li>
-                            <a class="hover:text-yellow-500">Tailwind CSS</a>
+                            <a class="hover:text-yellow-500">Store</a>
                         </li>
                     </ul>
                 </div>
@@ -132,10 +138,10 @@
                     <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase dark:text-white">Pages</h2>
                     <ul class="text-gray-500 dark:text-gray-400">
                         <li class="mb-4">
-                            <a class="hover:text-yellow-400">Github</a>
+                            <a href="/about-us" class="hover:text-yellow-400">About Us</a>
                         </li>
                         <li>
-                            <a class="hover:text-yellow-400">Discord</a>
+                            <a href="/contact-us" class="hover:text-yellow-400">Contact us</a>
                         </li>
                     </ul>
                 </div>
