@@ -15,7 +15,7 @@
 </head>
 
 
-<body class="bg-gray-100">
+<body class="bg-gray-100 h-screen">
     <div class="ml-10 mr-10">
         <nav class="border-gray-200 px-2 sm:px-4 py-2.5 border-solid border-b-2 border-gray-400  dark:bg-gray-900">
             <div class="container  flex flex-wrap items-center justify-between mx-auto">
@@ -111,10 +111,64 @@
                 </nav>
             </section>
         </div>
-        <p class="text-4xl text-center text-yellow-700 md:mt-8 mt-8 pt-10 sm:mt-4">
-            Comming Soon ...
-        </p>
+
+
+        <div class="md:flex md:mt-4 mt-4 sm:grid sm:grid-cols-1">
+            <div class="">
+                <div class="bg-white p-2 mb-2 ">
+                    <h1 class="text-xl">Articels</h1>
+                </div>
+                <div class="md:flex  sm:grid sm:grid-cols-1 bg-white p-4 justify-between">
+                    <div class="mt-2">
+                        <h1 class="font-bold text-l">Room 14: Ink when it leads to blood and people </h1>
+                        <p class="text-base mt-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident et consequatur doloremque doloribus, fugiat necessitatibus iste ab. Inventore deleniti harum vel sapiente, optio, eius facere facilis ipsam aut saepe earum?
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis quia exercitationem expedita doloribus! Itaque excepturi illum saepe repellendus. Temporibus fugiat maxime repudiandae enim autem mollitia quis cumque. Impedit, blanditiis deleniti.</p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatem vel culpa amet quod tempore doloremque sed cupiditate ratione optio, assumenda asperiores, ad dignissimos ullam, praesentium recusandae itaque unde reiciendis.
+                        <div class="flex justify-between">
+                            <div class="flex m-1 mt-4">
+                                <img src="images/author.png" alt="">
+                                <span class="ml-2 text-base text-yellow-500">Abdallhaa.Mufleh</span>
+                            </div>
+
+                            <div class="flex mt-4 mr-4">
+                                <span class="mt-1 mr-2"> <img src="images/Date.png" alt=""> </span>
+                                <span class="text-gray-500 text-center text-base "> Date: 20/10/2010 </span>
+                            </div>
+                        </div>
+                        <br>
+                        <button class="border-2 border-black rounded-lg p-1 mt-2 hover:bg-gray-300 hover:text-yellow-500">
+                            More Details
+                        </button>
+                    </div>
+                    <div class="mt-4 w-full">
+                        <img src="images/Langing.png" class="right-0 h-full object-fill h-48" alt="">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="md:w-72  md:ml-8">
+                    <div class="bg-white  p-2 mb-2 md:mt-0 mt-4">
+                        <h1 class="text-xl">About us ? </h1>
+                    </div>
+                    <div class="bg-white">
+                        <div class="px-5 xl:px-12 py-6 flex w-full  items-center md:ml-0 ml-32">
+                            <a href="/">
+                                <img src="/images/Frame.svg" height="150px" width="150px" alt="">
+                            </a>
+                        </div>
+                        <p class="p-4">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi laborum quam libero dolor, provident ullam vero commodi laboriosam eveniet earum dignissimos, consectetur itaque neque pariatur explicabo aliquid atque facere?
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
     </div>
+
+
 
     <!-- footer -->
     <footer class="p-4 bg-gray-900 sm:p-6 dark:bg-gray-900 mt-24">
@@ -176,23 +230,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
 </body>
-
-
-
-
-
-
-
-
 
 </html>
